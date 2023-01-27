@@ -1,0 +1,19 @@
+ //! Hero section //
+ 
+ <p data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className='flex sm:ml-[22 rem]  text-xs text-center subpixel-antialiased font-Ibm md:w-auto w-[15rem] text-[15px] ml-[73px] xl:ml-[22rem] md:ml-[40rem] font-normal md:text-xl text-color  pt-4 '>
+    I design and code beautifully simple things, and I love what I do.
+    </p>
+
+ <h1 data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom"  className='flex  md:justify-center text-center head-color w-[24rem] md:w-auto font-Raleway subpixel-antialiased text-[21px]  md:text-4xl font-bold pt-14 font-color'>
+    Designer, Frontend Developer & Backend
+    </h1>
+
+    /------------------------------------------------------/
+
+    service ////
+
+    <div className='rounded-lg flex md:flex-row flex-wrap flex-col justify-center w-[22rem]  md:w-[98rem] drop-shadow-2xl h-[107rem] md:h-[35rem] space-x-8 bg-white grid-flow-row pt-10 '>
+
+    
