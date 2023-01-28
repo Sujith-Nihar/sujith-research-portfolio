@@ -46,9 +46,9 @@ export const Image_Slider = () => {
   return (
     <>
 <h1 data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='flex justify-center font-Raleway font-bold text-xl head-color md:text-4xl pt-8 '>Building efficient, beautiful websites.</h1>
+      className='flex justify-center font-Raleway font-bold text-xl head-color md:text-4xl pt-8 '>Building efficient, beautiful websites.</h1>
 <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='max-w-[1400px] h-[23rem] md:h-[780px] mt-0  w-full m-auto py-16 px-4 relative  '>
+      className='max-w-[1400px] h-[23rem] md:h-[780px] mt-0  w-full m-auto py-16 px-4 relative  '>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full  md:h-[107%] h-[95%] rounded-2xl bg-center bg-cover duration-500'

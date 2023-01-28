@@ -24,11 +24,11 @@ function Service() {
 
     <div className='flex  shrink justify-center pt-20'>
  {/* -------------edit------------  */}
-    <div className='rounded-lg shrink flex md:flex-row  flex-col justify-center w-[22rem]  md:w-[98rem] drop-shadow-2xl h-[107rem] md:h-[35rem] space-x-8 bg-white grid-flow-row pt-10 '>
+    <div className='rounded-lg shrink flex md:flex-row  flex-col justify-center w-[22rem] lg:w-[72rem]  2xl:w-[98rem] drop-shadow-2xl h-[107rem] sm:w-[58rem] md:h-[37rem] 2xl:h-[35rem] space-x-8 bg-white grid-flow-row pt-10 '>
            
            {/* First-section  */}
 
-          <div data-aos="fade-up" className=' flex flex-col grow-0 text-center mt-[-9rem] md:mt-0   w-[22rem]  md:border-r-2 pr-4'>
+          <div data-aos="fade-up" className=' flex flex-col grow-0 text-center mt-[-9rem] md:mt-0   w-[22rem]  md:border-r-2 pr-4' >
             <div className='flex justify-center'>
 
             <img src={dev} className=" w-[5rem] h-[3.25rem] md:w-[57px]  md:h-[57px] " alt="" />

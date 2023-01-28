@@ -13,7 +13,7 @@ export const Footer = () => {
     <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex justify-center  items-center w-[100%] z-10 mt-44' >
         <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"  className=' w-[87%] md:w-[70%]  flex-col md:flex-row drop-shadow-2xl  bg-[#141C3A] h-[21rem] md:h-[10rem] absolute rounded-lg flex items-center mt-12 md:mt-0'>
+     data-aos-anchor-placement="bottom-bottom"  className=' w-[87%] 2xl:w-[63%] md:w-[90%]  flex-col md:flex-row drop-shadow-2xl  bg-[#141C3A] h-[21rem] md:h-[10rem] absolute rounded-lg flex items-center mt-12 md:mt-0'>
           <h1 data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"  className=' font-Raleway text-[28px]  md:text-4xl font-bold text-white ml-0 mt-8 md:mt-0 md:ml-24'>Start a project</h1>
 

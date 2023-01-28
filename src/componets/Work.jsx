@@ -12,8 +12,8 @@ export const Work = () => {
             <h1 data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex flex-row  text-4xl font-Raleway font-bold'>My Recent Work</h1>
             <p data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='font-Ibm text-center text-sm md:text-lg mt-8'>Here are a few past design projects I've worked on. Want to see more? <a href="/">Email me.</a> </p>
-            <div className='flex flex-col md:grid md:grid-cols-3 md:space-x-5  '>
+     data-aos-anchor-placement="bottom-bottom" className='font-Ibm text-center text-sm md:text-[20px] mt-8'>Here are a few past design projects I've worked on. Want to see more? <a href="/">Email me.</a> </p>
+            <div className='flex flex-col md:grid md:grid-cols-3  md:space-x-8 md:space-y-8 2xl:space-x-5  '>
             <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex items-center md:w-[26rem] w-[20rem] min-h-[30vh] '>
   <div
@@ -179,7 +179,7 @@ export const Work = () => {
  <a data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" href="https://dribbble.com/omprakash2929/collections">
 
- <button type="button"   className="inline-block px-6 py-3 md:py-4 border-2 border-purple-600 text-purple-600 font-medium text-lg leading-tight  rounded-full hover:bg-violet-600 hover:text-white focus:outline-none focus:ring-0 transition duration-500 ease-in-out"> See more on Dribble</button>
+ <button type="button"   className="inline-block px-6 py-3 md:py-4 border-2 border-purple-600 text-purple-600 font-medium text-lg leading-tight  rounded-full hover:bg-violet-600 hover:text-white focus:outline-none focus:ring-0 transition duration-500 mt-8 ease-in-out"> See more on Dribble</button>
  </a>
     
         </div>

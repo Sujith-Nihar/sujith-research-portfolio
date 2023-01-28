@@ -12,8 +12,7 @@ import figma from '../image/language/figma.png'
 export const Language = () => {
   return (
     <div className='md:mt-[18rem] mt-[87rem] h-auto flex shrink justify-center '>
-        <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className=' md:flex flex-wrap  md:flex-row grid grid-cols-2 items-center pl-16 md:pl-0 md:space-x-2 md:justify-center'>
+        <div data-aos="fade-up" className=' md:flex flex-wrap  md:flex-row grid grid-cols-2 items-center pl-16 md:pl-0 md:space-x-2 md:space-y-0 md:justify-center'>
             <img src={html}  className="md:w-[108px] md:h-[124px] w-[79px] h-[79px] md:-rotate-12" alt="" />
             <img src={css}  className="md:w-[108px] md:h-[124px] w-[79px] h-[79px] md:rotate-12" alt="" />
             <img src={react}  className="md:w-[124px] md:h-[124px] w-[80px] h-[80px] md:rotate-45" alt="" />
