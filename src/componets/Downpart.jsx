@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "../image/Downpart/fiverr.png"
-import img2 from "../image/Downpart/upwork.png"
+import img1 from "../image/Downpart/insta.png"
+import img2 from "../image/Downpart/linkedin.svg"
 import img3 from "../image/Downpart/mail.png"
 export const Downpart = () => {
   return (
@@ -13,20 +13,24 @@ export const Downpart = () => {
         <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex flex-col md:flex-row items-center justify-center md:space-x-44 space-y-14 mt-16' >
 
-          <div className='mt-12'>
-          <img src={img1} alt="" className='md:w-[8rem] w-[6rem] cursor-pointer' />
-          <button className="px-8 mt-4 md:ml-3 py-2 text-white bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg"><a href="/">Fiverr</a></button>
-          </div>
+<div className="mt-12 flex flex-col items-center">
+  <img src={img1} alt="" className="md:w-[8rem] w-[6rem] cursor-pointer" />
+  <button className="px-8 mt-4 py-2 text-white bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg">
+    <a href="https://www.instagram.com/sujith_nihar/">Instagram</a>
+  </button>
+</div>
             
             <div>
             <img src={img3} alt="" className='md:w-[8rem] w-[5rem] cursor-pointer' />
-            <button className="px-8 md:ml-4 py-2 text-white mt-4 bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg"><a href="/">Mail</a></button>
+            <button className="px-8 md:ml-4 py-2 text-white mt-4 bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg"><a href="https://mail.google.com/">Mail</a></button>
             </div>
             
-            <div>
-            <img src={img2} alt="" className='md:w-[8rem] w-[5rem] ml-4 cursor-pointer' />
-            <button className="px-8 md:ml-4 py-2 mt-4 text-white bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg"><a href="/">UpWork</a></button>
-            </div>
+            <div className="flex flex-col items-center mt-12">
+  <img src={img2} alt="LinkedIn" className="md:w-[13rem] w-[6rem] cursor-pointer" />
+  <button className="px-8 py-2 mt-4 text-white bg-indigo-600 rounded-lg duration-150 hover:bg-indigo-700 active:shadow-lg">
+    <a href="https://www.linkedin.com/in/sujith-thota/">LinkedIn</a>
+  </button>
+         </div>
             
             
         </div>

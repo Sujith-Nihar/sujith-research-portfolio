@@ -40,7 +40,7 @@ export const Footer = () => {
          </div>
 
          <h1 data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='font-Raleway text-white text-center  antialiased font-semibold text-lg mt-10'>Developed By Omprakash</h1>
+     data-aos-anchor-placement="bottom-bottom" className='font-Raleway text-white text-center  antialiased font-semibold text-lg mt-10'>Developed By Sujith Thota</h1>
     </div>
     </>
   )

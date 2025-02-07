@@ -7,7 +7,7 @@ import node from '../image/language/node.png'
 import sass from '../image/language/sass.png'
 import mongo from '../image/language/mongo.png'
 import tailwind from '../image/language/tailwind.png'
-import Webflow from '../image/language/Webflow.png'
+import Webflow from '../image/language/webflow.png'
 import figma from '../image/language/figma.png'
 export const Language = () => {
   return (
