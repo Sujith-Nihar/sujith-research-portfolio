@@ -16,7 +16,7 @@ function Service() {
 
     <p data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex font-Ibm justify-center text-center   text-[12px] subpixel-antialiased   md:text-lg font-medium pt-5 w-[68rem] text-white'>
-    I've been a frontend developer for two years, designing and building beautiful, responsive websites. I also love videography—I travel, create vlogs, and share them on my Instagram. Editing videos is another passion of mine, and I enjoy bringing stories to life through my edits. My experience extends to teaching video editing and videography, having served as a member and later vice president of my university's animation club, where I mentored others in tools like Photoshop and industry-leading video editing software.
+    I've been a content creator for four years, creating visual content of teaching and travel, and a frontend developer for two years, designing and building beautiful, responsive websites. I love videography—I travel, create vlogs, and share them on my Instagram. Editing videos is another passion of mine, and I enjoy bringing stories to life through my edits. My experience extends to teaching video editing and videography, having served as a member and later vice president of my university's animation club, where I mentored others in tools like Photoshop and industry-leading video editing software.
     </p>
     </div>
 
@@ -72,11 +72,10 @@ function Service() {
             <p className='font-Ibm violet md:text-lg text-base pt-8'>Things I enjoy designing:</p>
             <div className='pt-4 font-Ibm  head-color md:text-lg text-sm'>
               <p>Videography</p>
-              <p>Vlogs</p>
+              <p>Visual Content & Vlogs</p>
             <p>Architecture Designer</p>
             <p>Pen & Paper</p>
             <p>Sketch</p>
-            
             </div>
             
           </div>
@@ -97,10 +96,11 @@ function Service() {
 
             <p className='font-Ibm violet md:text-lg text-base  pt-8'>Things I Use:</p>
             <div className='pt-4 font-Ibm  head-color md:text-lg text-sm'>
+              <p>Adobe Premiere pro</p>
               <p>VN editor</p>
               <p>Capcut</p>
               <p>Adobe Photoshop</p>
-              <p>PicsArt</p>
+              <p>Audacity</p>
               <p>Adobe Lightroom</p>
             </div>
           </div>
