@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Sujith-portfolio",
+  base: "/sujith-research-portfolio",
 })
 server: {
   host: true

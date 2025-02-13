@@ -4,10 +4,10 @@ import { useState } from "react"
 export const Navbar = () => {
     const [state, setState] = useState(false);
     const navigation = [
-        { title: "Work", path: "/Sujith-portfolio/" },
-        { title: "Service", path: "/Sujith-portfolio/" },
-        { title: "Portfoilo", path: "/Sujith-portfolio/" },
-        { title: "About ", path: "/Sujith-portfolio/" }
+        { title: "Work", path: "/" },
+        { title: "Service", path: "/" },
+        { title: "Portfoilo", path: "/" },
+        { title: "About ", path: "/" }
     ]
   return (
     <div className=""> 
@@ -52,7 +52,7 @@ export const Navbar = () => {
                           })
                       }
                        <div className=" md:inline-block">
-                <a href="/Sujith-portfolio/" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-full font-Ibm text-lg  shadow">
+                <a href="/" className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-full font-Ibm text-lg  shadow">
                     Say hello
                 </a>
               </div>
