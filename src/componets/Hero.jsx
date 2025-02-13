@@ -8,12 +8,12 @@ export const Hero = () => {
       <div className='flex w-auto flex-col justify-center items-center'>
     <h1 data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"  className='flex  md:justify-center text-center head-color  md:w-auto font-Raleway subpixel-antialiased text-[21px]  md:text-4xl font-bold pt-14 font-color'>
-    Designer | Frontend Developer | Videographer | Video Editor
+    Machine Learning Engineer | Fullstack Developer| Videographer
     </h1>
 
     <p data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex sm:ml-[22 rem]  text-xs text-center subpixel-antialiased font-Ibm md:w-auto  text-[15px]    font-normal md:text-xl text-color  pt-4 '>
-    I design, code, capture, and edit beautifully simple things, and I love what I do.
+   I create AI-powered solutions, develop powerful backends, and design engaging frontends. Every line of code tells a story.
     </p>
     </div>
     {/* ----------------------------------- */}

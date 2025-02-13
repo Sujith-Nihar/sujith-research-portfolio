@@ -16,7 +16,7 @@ function Service() {
 
     <p data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex font-Ibm justify-center text-center   text-[12px] subpixel-antialiased   md:text-lg font-medium pt-5 w-[68rem] text-white'>
-    I've been a content creator for four years, creating visual content of teaching and travel, and a frontend developer for two years, designing and building beautiful, responsive websites. I love videography—I travel, create vlogs, and share them on my Instagram. Editing videos is another passion of mine, and I enjoy bringing stories to life through my edits. My experience extends to teaching video editing and videography, having served as a member and later vice president of my university's animation club, where I mentored others in tools like Photoshop and industry-leading video editing software.
+    I am a Machine Learning Research Student with a year of experience, having published two research papers on the integration of machine learning and computer vision. I have spent 2 years at Accenture as a Machine Learning Engineer & Full Stack Developer, where I developed TinyML models for resource-constrained devices, while also designing scalable backend systems and building intuitive frontend interfaces. Currently, I am researching image analysis to detect depression from Instagram posts, using AI to address mental health challenges. My work blends cutting-edge technology with human-centered solutions, and I’m passionate about creating intelligent, impactful tools that make a difference.
     </p>
     </div>
 
@@ -43,13 +43,14 @@ function Service() {
 
             <p className='font-Ibm violet md:text-lg text-base pt-8 '>Languages I speak:</p>
             <div className='pt-4 font-Ibm  head-color md:text-lg text-sm'>
+            <p>PYTHON</p>
             <p>HTML5</p>
             <p>CSS3</p>
             <p>JAVA SCRIPT</p>
             <p>REACT JS</p>
             <p>FastAPI</p>
             <p>SQL</p>
-            <p>MONGO DB</p>
+            
             </div>
 
             <hr  className='w-[22rem] relative right-0 mt-4  md:hidden ' />
@@ -62,20 +63,20 @@ function Service() {
             <img src={design} className=" w-[5rem] h-[3.25rem] md:w-[57px]  md:h-[57px] " alt="" />
             </div>
             <div className='flex justify-center head-color'>
-            <h1 className='pt-5 font-Raleway font-bold text-xl md:text-2xl w-[13rem] border-b-2  '>Design</h1>
+            <h1 className='pt-5 font-Raleway font-bold text-xl md:text-2xl w-[13rem] border-b-2  '>Technology</h1>
 
             </div>
             <p className='font-Ibm  font-normal text-base md:text-lg head-color pt-4'>
-            I believe in simplicity, balance, and storytelling. Whether crafting a user experience or capturing a moment through my lens
+            I believe in data, scalability, and seamless solutions. From building intelligent systems to crafting cloud infrastructures and developing full-stack applications, I create tech that empowers.
             </p>
 
-            <p className='font-Ibm violet md:text-lg text-base pt-8'>Things I enjoy designing:</p>
+            <p className='font-Ibm violet md:text-lg text-base pt-8'>Things I enjoy :</p>
             <div className='pt-4 font-Ibm  head-color md:text-lg text-sm'>
-              <p>Videography</p>
-              <p>Visual Content & Vlogs</p>
-            <p>Architecture Designer</p>
-            <p>Pen & Paper</p>
-            <p>Sketch</p>
+              <p>Machine learning</p>
+              <p>Deep learning</p>
+            <p>NLP and Computer vision</p>
+            <p>Cloud technology</p>
+            <p>Full stack dev</p>
             </div>
             
           </div>
@@ -87,21 +88,21 @@ function Service() {
             <img src={ux} className=" w-[5rem] h-[3.25rem] md:w-[57px]  md:h-[57px] " alt="" />
             </div>
             <div className='flex justify-center head-color'>
-            <h1 className='pt-5 font-Raleway font-bold text-xl md:text-2xl w-[13rem] border-b-2  '>Editing</h1>
+            <h1 className='pt-5 font-Raleway font-bold text-xl md:text-2xl w-[13rem] border-b-2  '>Research</h1>
 
             </div>
             <p className='font-Ibm  font-normal  text-base md:text-lg head-color pt-4'>
-            For me, editing is more than just cutting clips—it's about shaping a story, creating rhythm, and bringing moments to life.
+            For me, research is more than just experimenting with models—it's about uncovering patterns, advancing intelligence, and pushing the boundaries of what's possible
             </p>
 
             <p className='font-Ibm violet md:text-lg text-base  pt-8'>Things I Use:</p>
             <div className='pt-4 font-Ibm  head-color md:text-lg text-sm'>
-              <p>Adobe Premiere pro</p>
-              <p>VN editor</p>
-              <p>Capcut</p>
-              <p>Adobe Photoshop</p>
-              <p>Audacity</p>
-              <p>Adobe Lightroom</p>
+              <p>Machine learning</p>
+              <p>Deep learning</p>
+              <p>Generative AI</p>
+              <p>Computer vision</p>
+              <p>Natural Language processing</p>
+              <p>TinyML</p>
             </div>
           </div>
           <hr  className='w-[22rem] relative right-8 mt-4  md:hidden ' />

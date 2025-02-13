@@ -16,7 +16,7 @@ export const Navbar = () => {
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex justify-between relative space-x-4  py-3 md:py-5 md:block">
                     <a href="/">
-                       <h1  className="font-Ibm font-bold text-2xl">Sujith's Studio</h1>
+                       <h1  className="font-Ibm font-bold text-2xl">Sujith's Portfolio</h1>
                     </a>
                   <div  className="md:hidden">
                       <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
