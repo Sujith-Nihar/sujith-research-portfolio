@@ -3,8 +3,10 @@ import work1 from '../image/Work/AI-2.png'
 import work2 from '../image/Work/coomingsoon.png'
 import work3 from '../image/Work/project.jpg'
 import work4 from '../image/Work/Landingpage.png'
-import work5 from '../image/Work/personalwebsite.jpg'
-import work6 from '../image/Work/Victor.jpg'
+import work5 from '../image/Work/workshop.png'
+import work6 from '../image/Work/tinyml.png'
+import work7 from '../image/Work/stock.jpg'
+import work8 from '../image/Work/health.jpg'
 export const Work = () => {
   return (
     <>
@@ -49,13 +51,10 @@ export const Work = () => {
 
 
 
-
-
-
  <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='flex items-center  md:w-[26rem] w-[20rem] min-h-[30vh]'>
-         <a href="https://github.com/Sujith-Nihar/MarketReactionsInsiderDataStocks" target="_blank" rel="noopener noreferrer">
-
+     data-aos-anchor-placement="bottom-bottom" className='flex items-center  md:w-[26rem] w-[20rem] min-h-[30vh] '>
+        <a href="https://github.com/Sujith-Nihar/Depression-detection-based-on-instagram-posts" target="_blank" rel="noopener noreferrer">
+        
   <div
             className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
         >
@@ -66,7 +65,7 @@ export const Work = () => {
                     <div
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
-                        <div className="font-bold">Projects</div>
+                        <div className="font-bold">AI/ML in Healthcare</div>
 
                         
                     </div>
@@ -75,17 +74,14 @@ export const Work = () => {
             <img
                 alt=""
                 className="object-cover w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                src={work3}
+                src={work8}
             />
         </div>
         </a>
-    
  </div>
-
-
-
             
  {/* ------------------  */}
+
 
 
  <div data-aos="fade-up"
@@ -117,10 +113,11 @@ export const Work = () => {
  </div>
 
  {/* ----------------  */}
+
  <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='flex items-center  md:w-[26rem] w-[20rem] min-h-[30vh] '>
-        <a href="https://github.com/Sujith-Nihar/travel_videos/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-        
+     data-aos-anchor-placement="bottom-bottom" className='flex items-center  md:w-[26rem] w-[20rem] min-h-[30vh]'>
+         <a href="https://github.com/Sujith-Nihar/MarketReactionsInsiderDataStocks" target="_blank" rel="noopener noreferrer">
+
   <div
             className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
         >
@@ -131,7 +128,7 @@ export const Work = () => {
                     <div
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
-                        <div className="font-bold">Cooming Soon Website</div>
+                        <div className="font-bold">AI/ML in Stock market</div>
 
                         
                     </div>
@@ -140,16 +137,17 @@ export const Work = () => {
             <img
                 alt=""
                 className="object-cover w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                src={work2}
+                src={work7}
             />
         </div>
         </a>
+    
  </div>
-
 
  {/* ---------------------  */}
             <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex  items-center md:w-[26rem] w-[20rem] min-h-[30vh]'>
+        <a href="https://sujith3thota.wixsite.com/ai-workshop-events-1" target="_blank" rel="noopener noreferrer">
   <div
             className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
         >
@@ -160,7 +158,7 @@ export const Work = () => {
                     <div
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
-                        <div className="font-bold">Portfolio Website</div>
+                        <div className="font-bold">NextGeniAI workshop website</div>
 
                         
                     </div>
@@ -172,10 +170,12 @@ export const Work = () => {
                 src={work5}
             />
         </div>
+        </a>
  </div>
  {/* ----------------------  */}
             <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" className='flex  items-center md:w-[26rem] w-[20rem] min-h-[30vh]'>
+         <a href="https://github.com/Sujith-Nihar/TinyML-project-demo" target="_blank" rel="noopener noreferrer">
   <div
             className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
         >
@@ -187,7 +187,7 @@ export const Work = () => {
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
                         
-                        <div className="font-bold">Agency website</div>
+                        <div className="font-bold">My Portfolio website</div>
 
                         
                     </div>
@@ -199,6 +199,7 @@ export const Work = () => {
                 src={work6}
             />
         </div>
+        </a>
  </div>
  </div>
  {/* --------------------------  */}
