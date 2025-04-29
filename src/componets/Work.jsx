@@ -203,11 +203,10 @@ export const Work = () => {
             
  </div>
  {/* --------------------------  */}
- <a data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" href="https://dribbble.com/omprakash2929/collections">
+ 
 
  <button type="button"   className="inline-block px-6 py-3 md:py-4 border-2 border-purple-600 text-purple-600 font-medium text-lg leading-tight  rounded-full hover:bg-violet-600 hover:text-white focus:outline-none focus:ring-0 transition duration-500 mt-8 ease-in-out"> See more on Dribble</button>
- </a>
+
     
         </div>
     </>
