@@ -30,7 +30,7 @@ export const Work = () => {
                     <div
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
-                        <div className="font-bold">AI/ML Research</div>
+                        <div className="font-bold">AI/ML Research projects</div>
 
                         
                     </div>
