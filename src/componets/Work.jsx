@@ -3,7 +3,7 @@ import work1 from '../image/Work/AI-2.png'
 import work2 from '../image/Work/coomingsoon.png'
 import work3 from '../image/Work/project.jpg'
 import work4 from '../image/Work/Landingpage.png'
-import work5 from '../image/Work/workshop.png'
+import work5 from '../image/Work/large.jpeg'
 import work6 from '../image/Work/tinyml.png'
 import work7 from '../image/Work/stock.jpg'
 import work8 from '../image/Work/health.jpg'
@@ -30,7 +30,7 @@ export const Work = () => {
                     <div
                         className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
                     >
-                        <div className="font-bold">Research</div>
+                        <div className="font-bold">AI/ML Research</div>
 
                         
                     </div>
@@ -48,7 +48,34 @@ export const Work = () => {
  </div>
 
  {/* Scetion  */}
+ <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" className='flex  items-center md:w-[26rem] w-[20rem] min-h-[30vh]'>
+         <a href="https://github.com/Sujith-Nihar/TinyML-project-demo" target="_blank" rel="noopener noreferrer">
+  <div
+            className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
+        >
+            <div
+                className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end"
+            >
+                <div>
+                    <div
+                        className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                        
+                        <div className="font-bold">Tiny ML project demo</div>
 
+                        
+                    </div>
+                </div>
+            </div>
+            <img
+                alt=""
+                className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                src={work6}
+            />
+        </div>
+        </a>
+ </div>
 
 
  <div data-aos="fade-up"
@@ -173,34 +200,7 @@ export const Work = () => {
         </a>
  </div>
  {/* ----------------------  */}
-            <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom" className='flex  items-center md:w-[26rem] w-[20rem] min-h-[30vh]'>
-         <a href="https://github.com/Sujith-Nihar/TinyML-project-demo" target="_blank" rel="noopener noreferrer">
-  <div
-            className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group"
-        >
-            <div
-                className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end"
-            >
-                <div>
-                    <div
-                        className="  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
-                    >
-                        
-                        <div className="font-bold">My Portfolio website</div>
-
-                        
-                    </div>
-                </div>
-            </div>
-            <img
-                alt=""
-                className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                src={work6}
-            />
-        </div>
-        </a>
- </div>
+            
  </div>
  {/* --------------------------  */}
  <a data-aos="fade-up"
